@@ -134,6 +134,92 @@
         &__item {
             padding-left: 20px;
         }
+
+        .feed__descr {
+            font-size: 15px;
+        }
+
+    }
+
+
+    .footer {
+        .footer__info {
+            height: 250px;
+            width: 400px;
+        }
+
+
+        .footer__addr {
+            font-size: 18px;
+        }
+
+        .footer__phone {
+            font-size: 18px;
+        }
+
+        .footer__social-item {
+            width: 45px;
+            height: 45px;
+
+            &:hover {
+                background-color: $main-color;
+
+            }
+        }
+    }
+
+    .button {
+        &:hover {
+            background-color: $main-color;
+            cursor: none;
+        }
+    }
+
+    #consultation {
+        min-height: 40%;
+        width: 350px;
+        padding: 36px 40px 40px 24px;
+
+        .modal__subtitle {
+            font-size: 18px;
+        }
+
+        input {
+            height: 45px;
+            font-size: 13px;
+        }
+
+        .button_submit {
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+
+    #order {
+        min-height: 40%;
+        width: 350px;
+        padding: 36px 40px 40px 24px;
+
+        .modal__subtitle {
+            font-size: 18px;
+        }
+
+        input {
+            height: 45px;
+            font-size: 13px;
+        }
+
+        .button_submit {
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+
+    .pageup {
+        z-index: 2;
+        margin-bottom: -5%;
+        margin-right: -5%;
+
     }
 
 }
@@ -258,6 +344,10 @@
         }
     }
 
+    .consultation {
+        min-height: 522px;
+    }
+
     .carousel {
         .carousel__inner {
             width: 100%;
@@ -291,6 +381,16 @@
             width: 125px;
             height: 35px;
             font-size: 13px;
+        }
+    }
+
+    .footer {
+        height: 400px;
+
+        .footer__info {
+            padding-top: 30px;
+            height: 210px;
+            width: 400px;
         }
     }
 
@@ -412,23 +512,28 @@
     .consultation {
         padding: 100px 8px 60px 8px;
 
+
         .title_left {
+            font-size: 20px;
             text-align: center;
-            padding-left: 5px;
             padding-top: 0px;
-            ;
+
         }
 
-        &__descr {
+        .consultation__descr {
             text-align: center;
-            margin-left: -13px;
+            font-size: 17px;
+            margin-top: 20px;
         }
 
         .feed-form {
             width: 240px;
+            display: block;
+            margin: 30px auto;
 
             input {
                 height: 40px;
+                width: 100%;
                 font-size: 12px;
             }
         }
@@ -463,5 +568,87 @@
             margin-top: 30px;
         }
     }
+
+    .footer {
+        .footer__info {
+            width: 100%;
+        }
+
+        .footer__social-item {
+            width: 42px;
+            height: 42px;
+
+        }
+
+
+    }
+
+    #order {
+        min-height: 40%;
+        width: 80%;
+        padding: 36px 40px 40px 24px;
+
+        .modal__close {
+            right: -25px;
+            font-size: 32px;
+        }
+
+        .modal__subtitle {
+            font-size: 17px;
+        }
+
+        input {
+            width: 80%;
+            height: 38px;
+            font-size: 13px;
+
+        }
+
+        .button_submit {
+            height: 40px;
+            font-size: 13px;
+            width: 80%;
+        }
+
+        .feed-form {
+            width: 285px;
+        }
+    }
+
+    #consultation {
+        min-height: 40%;
+        width: 80%;
+        padding: 36px 40px 40px 24px;
+
+        .modal__close {
+            right: -25px;
+            font-size: 32px;
+        }
+
+        .modal__subtitle {
+            font-size: 17px;
+        }
+
+        input {
+            width: 80%;
+            height: 38px;
+            font-size: 13px;
+
+        }
+
+        .button_submit {
+            height: 40px;
+            font-size: 13px;
+            width: 80%;
+        }
+
+        .feed-form {
+            width: 285px;
+        }
+    }
+
+
+
+
 
 }

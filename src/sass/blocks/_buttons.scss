@@ -9,6 +9,14 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FF6347;
+
+
+        transition: 0.5s all;
+    }
 
     &_main {
         margin-top: 67px;
@@ -16,6 +24,8 @@
         height: 50px;
         font-size: 16px;
         text-transform: uppercase;
+
+
     }
 
     &_submit {
@@ -32,6 +42,12 @@
         width: 135px;
         height: 44px;
         font-size: 14px;
+
+        &:hover {
+            background-color: $main-color;
+            box-shadow: 3px 3px 20px $main-color;
+            color: #FFFACD;
+        }
 
     }
 }
